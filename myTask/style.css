@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+section{
+    background-image: url('./assest/images/background.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    transition: opacity 0.6s;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.main-heading{
+    padding: 238px 274px 66px 194px;
+    margin: 0px 0px -60px 0px;
+}
+.heading1{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #f5e945;
+    padding: 20px 0px;
+    margin: 0px -34px;
+}
+.heading2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #feffea;
+    margin: 0px -125px;
+    padding-left: 86px;
+ 
+}
+hr{
+    border-bottom: 3px solid #f5e945;
+    width: 110px;
+    position: absolute;
+    left: 157px;
+    margin-top: 25px;
+
+}
+.para1{
+    margin: 50px 20px;
+    padding: 10px 10px 9px 140px;
+    color: white;
+}
+.btns{
+    color: white;
+    margin: -30px 0px 0px 155px;
+}
+.btn1{
+    background-color: #f5e945;
+    color: white;
+    padding: 13px 23px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.btn2{
+    padding: 12px 20px;
+    margin: 0px 11px;
+    color: white;
+    border: 2px solid white;
+    background-color: darkblue;
+    background-color: Transparent;
+
+    
+    
+
+  
+}
+.img{
+    position: relative;
+}
+.img img{
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
