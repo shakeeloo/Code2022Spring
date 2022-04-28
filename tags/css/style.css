@@ -1,0 +1,86 @@
+.body{
+    color: rgb(245, 248, 248);
+}
+.heading1{
+    text-align: center;
+    color:white;
+    background-color: maroon;
+    text-transform: uppercase;
+}
+.heading2{
+    text-align: center;
+    color:rgb(22, 22, 95);
+    text-transform: capitalize;
+    text-anchor: end;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+.heading3{
+    text-align: left;
+    color:rgb(31, 14, 78);
+    text-transform: capitalize;
+    text-anchor: start;
+    letter-spacing: 0.5px;
+    word-spacing: 2px; 
+}
+.heading4{
+    text-align: left;
+    color:rgb(31, 14, 78);
+    text-transform: capitalize;
+    text-anchor: start;
+    letter-spacing: 0.5px;
+    word-spacing: 2px; 
+}
+.heading5{
+    text-align: left;
+    color:rgb(31, 14, 78);
+    text-transform: capitalize;
+    text-anchor: start;
+    letter-spacing: 0.5px;
+    word-spacing: 2px; 
+}
+.para1{
+    text-align: center;
+    word-spacing: 2px; 
+    background-image: url(../images/about1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    image-resolution: center;
+    border-radius: 360px;
+}
+.para2{
+    text-align: center;
+    word-spacing: 2px; 
+    background-image: url(../images/h.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    image-resolution: center;
+    border-radius: 360px;
+    background-size: cover;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right:50px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 50px;
+    border-style: solid;
+}
+.para3{
+    text-align: center;
+    word-spacing: 2px; 
+    background-image: url(../images/h1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 100%;
+    image-resolution: center;
+    visibility:full;
+    border-radius: 360px;
+}
