@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-image: url(/tags/images/inline-feature-bg.jpg);
+    background-image: url(../images/inline-feature-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
