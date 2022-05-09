@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 14rem 182px;
+    background-image: url(../imgs/construction-tools-dark-background.jpg);
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: xxx-large;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.header p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 500;
+    line-height: 27px;
+    color: white;
+    padding: 9px 122px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.button button {
+    padding: 12px 33px;
+    border-style: hidden;
+    font-family: revert;
+    background-color: rgb(37, 37, 235);
+    color: white;
+    border-radius: 4px;
+}
+
+.button a {
+    text-decoration: none;
+    border: 1px solid rgb(243, 243, 246);
+    padding: 9px 30px;
+    font-family: serif;
+    border-radius: 4px;
+    color: rgb(231, 231, 232);
+    margin-left: 25px;
+}
+
+
+/* .........from here we starts css for our section...................................  */
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin: 56px 170px;
+}
+
+.section {
+    border: 2px solid rgb(221, 220, 220);
+    width: 30%;
+    text-align: center;
+    padding: 0px 6px 60px;
+    background-color: rgb(253, 253, 253);
+}
+
+span {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: rgb(64, 81, 213);
+}
+
+.section i {
+    font-size: larger;
+    color: rgb(37, 56, 204);
+}
+
+.section h2 {
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding: 15px;
+    font-weight: 100;
+    color: rgb(64, 64, 96);
+}
+
+.s2 {
+    font-size: large;
+    color: rgb(20, 134, 215);
+}
+
+.section p {
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: gray;
+}
+
+.section a {
+    border: 2px solid rgb(74, 149, 240);
+    padding: 8px 25px;
+    margin: 10px;
+    color: rgb(42, 173, 249);
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+/* ..................from here we stARTS OUR NEW SECTION....................................................  */
+
+#work {
+    background-image: url(/imgs/wp1842337.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7rem;
+}
+
+#work h1 {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+#work hr {
+    border: 2px solid rgb(238, 255, 0);
+    width: 8%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 43rem;
+    margin-bottom: 70px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child {
+    width: 23%;
+    border-radius: 12px;
+    background-color: white;
+    margin: 0px -150px;
+}
+
+.child img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.child h3 {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 13px;
+    color: #242424;
+    margin-top: 16px
+}
+
+.child p {
+    font-size: initial;
+    font-family: sans-serif;
+    color: #242424;
+    padding: 5px 13px;
+    line-height: 25px;
+}
+
+.child a {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 25px;
+    border: 2px solid rgb(40, 145, 243);
+    color: rgb(40, 145, 243);
+    padding: 13px 26px;
+    margin: 18px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+/* ................now from here we starts css for our last section.............................  */
+
+.third h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+.list {
+    display: flex;
+    margin: 12px 32px;
+}
+
+.last {
+    display: flex;
+    margin: 31px 6rem;
+}
+
+.paragraph h3 {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 13px;
+    color: #242424;
+    margin-top: 16px
+}
+
+.paragraph p {
+    font-size: initial;
+    font-family: sans-serif;
+    color: #242424;
+    padding: 5px 13px;
+    line-height: 25px;
+}
+
+.sat {
+    display: flex;
+    margin: 0px 6rem;
+}
+
+.icon {
+    margin-left: 12px;
+}
+
+.icon i {
+    color: yellow;
+}
