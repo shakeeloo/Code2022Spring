@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first{
+     background-color: rgba(0, 0, 0, 0.9); 
+   /* opacity: 0.9; */
+     background-image: url("../pics/don.jpg"); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 50px;
+    
+  
+}
+.hero-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 50%;  
+}
+.btn-1{
+    background-color: rgb(37, 37, 240);
+    color: aliceblue;
+    border: 0px;
+    padding: 12px;
+    margin-right: 14px;
+    font-size: x-small;
+}
+.btn-2{
+    border: 10px;
+    padding: 8px;
+    background: transparent;
+    border: 2px white solid;
+    color: aliceblue;
+    font-size: x-small;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:45vh;
+    padding: 100px;
+    
+
+}
+.sub-1{
+    border: 1px rgb(49, 49, 49) solid;
+    padding: 40px;
+    
+}
+
+.sub-2{
+    border: 1px rgb(49, 47, 47) solid;
+    padding: 40px;
+}
+.sub-3{
+    border: 1px rgb(49, 48, 48) solid;
+    padding: 40px;
+}
+.s1{
+    font-size: xx-large;
+    color: rgb(40, 40, 94);
+}
+.p1{
+    font-size: small;
+}
+
+.p2{
+    font-size: xx-small;
+}
+.btn-3{
+    border: 1px blue solid;
+    background: transparent;
+    padding: 10px;
+    color: blue;
+    font-size: x-small;
+}
+.btn-1:hover{
+transition-duration: 0.9s;
+cursor: pointer;
+color: rgb(237, 237, 243);
+transform: scale( 1.2);
+transition: all  ease-in-out 0.2S ;
+font-size: 0.5rem;
+
+}
+
+
+.third{
+    background-image: url("../pics/work3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.card{
+    margin: 0;
+    width: 400px;
+    margin: 25px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    background-color: aliceblue;
+    padding: 0 0 0px 0;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+
+}
+.card img{
+    height: 50vh;
+    }
+
+
+.card h3, p {
+    padding-left: 15px;
+}
+
+.heading1{
+        color: rgb(255, 255, 255);
+        font-size: xx-large;
+       padding-top: 70px;
+       padding-left: 100px;
+       padding-right: 100px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-weight:100;
+       font-style: italic;
+       font-size:36pt ;
+       
+    
+    }
+.btn-4{
+    padding:10px;
+    background: transparent;
+    border: 2px solid rgb(58, 58, 247);
+    color: rgb(58, 58, 212);
+    margin: 15px;
+    margin-left: 140px;
+}
+.btn-2:hover{
+    transition-duration: 0.9s;
+    cursor: pointer;
+    color: rgb(26, 26, 139);
+    transform: scale( 1.2);
+    transition: all  ease-in-out 0.2S ;
+    font-size: 0.5rem;
+    
+    }
+    .btn-3:hover{
+        transition-duration: 0.9s;
+        cursor: pointer;
+        color: rgb(29, 29, 134);
+        transform: scale( 1.2);
+        transition: all  ease-in-out 0.2S ;
+        font-size: 0.5rem;
+        
+        }
+        .btn-4:hover{
+            transition-duration: 0.9s;
+            cursor: pointer;
+            color: rgb(31, 31, 179);
+            transform: scale( 1.2);
+            transition: all  ease-in-out 0.2S ;
+            font-size: 0.5rem;
+            
+            }
+            .btn-5:hover{
+                transition-duration: 0.9s;
+                cursor: pointer;
+                color: rgb(16, 16, 151);
+                transform: scale( 1.2);
+                transition: all  ease-in-out 0.2S ;
+                font-size: 0.5rem;
+                
+                }    
+                .last{
+                    display: flex;    
+                    flex-direction: column ; 
+                     /* justify-content: center;  */
+                    height:45vh;
+                    padding: 10px;       
+                    margin-bottom: 300px;
+                } 
+                
+           .team{
+               color: black;
+               text-align: center;
+               font-size: xx-large;
+               text-decoration:underline;
+               
+                  
+           }   
+        
+            .lastone{
+                display: flex;
+                flex-direction: row;
+                padding-right: 200px;
+                padding-left: 200px;
+                margin-top: 5px;
+                padding-top: 1px;
+        
+
+            }
+            .lasttwo{
+                display: flex;
+                flex-direction: row;
+                padding-right: 200px;
+                padding-left: 200px;
+                margin-top: 5px;
+                padding-top: 1px;
+    
+ 
+ 
+            }
+
+
+           .last1{
+
+           display: flex;
+           flex-direction: row;
+           margin-top: 5px;
+           margin-right: 25px; 
+           height:30vh;
+           border: 4px solid rgba(0, 0, 0, 0.199);
+           padding-left: 20px;
+           overflow: hidden;
+           
+             
+           } 
+
+
+             .pic1{
+                height: 40vh;
+                width: 200px;
+            }
+            
+            .pic2{
+                height: 40vh;
+                width: 200px;
+            } 
+            
+
+          
+
+
+            .last2{
+
+                display: flex;
+           flex-direction: row;
+           margin-top: 5px;
+           margin-right: 25px; 
+           height:30vh;
+           border: 4px solid rgba(0, 0, 0, 0.199);
+           padding-left: 20px;
+           overflow: hidden;
+         
+          
+           } 
+
+         
+
+            .last3{
+                 
+           display: flex;
+           flex-direction: row;
+           margin-top: 5px;
+           margin-right: 25px; 
+           height:30vh;
+           border: 4px solid rgba(0, 0, 0, 0.199);
+           padding-left: 20px;
+           overflow: hidden;
+                
+           } 
+
+            
+           .last4{
+                 
+            display: flex;
+            flex-direction: row;
+            margin-top: 5px;
+            margin-right: 25px; 
+            height:30vh;
+            border: 4px solid rgba(0, 0, 0, 0.199);
+            padding-left: 20px;
+            overflow: hidden;
+            
+            
+            } 
+ 
+             
