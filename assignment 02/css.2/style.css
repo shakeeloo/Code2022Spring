@@ -1,0 +1,28 @@
+.div1{
+    background-image: url(../images.2/picture.jpg);
+    padding: 18%;
+    background-repeat: no-repeat ;
+    background-size:cover ;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.button1{
+    color: white;
+    background-color: blue;
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+.box{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.box1{
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+}
+

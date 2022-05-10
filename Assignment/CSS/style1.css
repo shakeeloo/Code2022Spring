@@ -1,6 +1,6 @@
 .heading1{
 text-transform: uppercase;
-color: blue;
+color: yellow;
 
 }
 .section1{
@@ -28,36 +28,36 @@ color: blue;
 }
 .heading2{
     text-transform: uppercase;
-    color:rgb(223, 13, 13);
+    color: white;
     word-spacing: 2px;
     letter-spacing: 0.5px;
     }
     .para1{
-        color: rgb(18, 18, 22);
+        color: white;
     }
     .line1{
         margin-left: 10px;
         margin-right: 700px;
         margin-top: 15px;
         margin-bottom: 20px;
-        color: blue;
+        color: yellow;
         border-style: solid;
-        border-color: rgb(24, 24, 78);
+        border-color: yellow;
     }
    .button1{
-       border-color: gray;
+       border-color: yellow;
        border-style: solid;
        box-sizing:10px,10px,5px,5px ;
-       color:white;
-       background-color: gray;
+       color: white;
+       background-color: yellow;
        text-transform: uppercase;
    }
    .button2{
-    border-color:rgb(94, 90, 90);
+    border-color:white;
     border-style: solid;
     box-sizing:10px,10px,5px,5px ;
-    color:white;
-    background-color:rgb(94, 90, 90);
+    color: black;
+    background-color:transparent;
     text-transform: uppercase;
     margin: 20px;
 }
