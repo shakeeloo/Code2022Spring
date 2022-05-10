@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.first-section{
+    background-image:  url('./assests/images/PERSOM.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ 
+
+}
+.main-heading{
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding-top: 272px;
+}
+.heading1{
+    font-size: 53px;
+    margin-bottom: 20px;
+}
+.main-btn{
+    margin-top: 32px;
+    margin-left: -29px;
+}
+.btn1{
+    padding: 17px 28px;
+    background-color: #3535f5;
+    color: white;
+    margin: 5px 5px;
+    border-radius: 3px;
+}
+.btn2{
+    padding: 17px 28px;
+    background-color: #3535f5;
+    color: white;
+    margin: 5px 5px;
+    border-radius: 3px;     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+
+}
+.pricing-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 87px 198px;
+}
+.p-card1{
+    padding: 116px 1px;
+    border: 1px solid;
+    text-align: center;
+    width: 600px;
+    height: 161px;
+}
+
+.p-card2{
+    padding: 116px 1px;
+    border: 1px solid;
+    text-align: center;
+    width: 600px;
+    height: 161px;
+}
+.p-card3{
+    padding: 116px 1px;
+    border: 1px solid;
+    text-align: center;
+    width: 600px;
+    height: 161px;
+}
+.sec-heading1{
+    margin-top: -90px;
+
+}
+.sec-heading2{
+    padding: 25px;
+    font-size: 31px;
+    color: rgb(71, 67, 133);
+}
+.sec-par{
+    padding: 15px 2px;
+    margin: 12px;
+}
+.sec-btn{
+    padding: 17px 28px;
+    background-color: none;
+    color: black;
+    margin: 5px 5px;
+    border-radius: 3px;
+}
+.sec-heading3{
+    margin-top: -90px;
+
+}
+.sec-heading4{
+    padding: 25px;
+    font-size: 31px;
+    color: rgb(71, 67, 133);
+}
+.sec-par1{
+    padding: 15px 2px;
+    margin: 12px;
+}
+.sec-btn1{
+    padding: 17px 28px;
+    background-color: none;
+    color: black;
+    margin: 5px 5px;
+    border-radius: 3px;
+}
+.sec-heading5{
+    margin-top: -90px;
+
+}
+.sec-heading6{
+    padding: 25px;
+    font-size: 31px;
+    color: rgb(71, 67, 133);
+}
+.sec-par2{
+    padding: 15px 2px;
+    margin: 12px;
+}
+.sec-btn2{
+    padding: 17px 28px;
+    background-color: none;
+    color: black;
+    margin: 5px 5px;
+    border-radius: 3px;
+}
+/* this is third-section */
+.third-section{
+    background-image: url('./assests/images/our\ main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.heading6{
+    text-align: center;
+    padding: 32px;
+    font-size: 42px;
+    font-family: sans-serif;
+    color: white;
+}
+.main-third{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+    
+}
+.master-card1{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.paints-card1{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.tools-card1{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(252, 255, 255);
+}
+.img1{
+    width: 400px;
+
+}
+.img2{
+    width: 400px;
+    height: 229px;
+}
+.img3{
+    width: 400px;
+    height: 229px;
+}
+.heading-3{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.btn-3{
+    padding: 14px 28px;
+    background-color: #3535f5;
+    color: white;
+    margin: 9px 5px;
+    border-radius: 3px;
+
+}
+/* fourth-section */
+.team{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 60px;
+}
+.team1{
+    padding: 25px;
+    margin: 7px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(196, 217, 217);
+}
+.img4{
+    border-radius: 500px;
+}
