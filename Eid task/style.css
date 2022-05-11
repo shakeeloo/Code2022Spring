@@ -89,6 +89,7 @@
     color: black;
     margin: 5px 5px;
     border-radius: 3px;
+    cursor: pointer;
 }
 .sec-heading3{
     margin-top: -90px;
@@ -103,7 +104,7 @@
     padding: 15px 2px;
     margin: 12px;
 }
-.sec-btn1{
+.sec-btn2{
     padding: 17px 28px;
     background-color: none;
     color: black;
@@ -129,6 +130,9 @@
     color: black;
     margin: 5px 5px;
     border-radius: 3px;
+}
+.sec-btn2:hover{
+    background-color: chartreuse;
 }
 /* this is third-section */
 .third-section{
@@ -200,7 +204,11 @@
     color: white;
     margin: 9px 5px;
     border-radius: 3px;
+    cursor: pointer;
 
+}
+.btn-3:hover{
+    background-color: rgb(205, 16, 16);
 }
 /* fourth-section */
 .team-heading{
