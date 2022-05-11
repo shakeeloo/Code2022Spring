@@ -1,0 +1,286 @@
+.container1 {
+    background-image: url(../images/boy.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 30%;
+    padding-bottom: 15%;
+    padding-top: 23%;
+    text-align: center;
+}
+
+.button1 {
+    border-radius: 10px, 10px, 5px, 5px, ;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+.button2 {
+    border-color: white;
+    color: white;
+    border-radius: 10px, 10px, 5px, 5px;
+    background: none;
+    text-align: center;
+
+}
+
+.heading1 {
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.para1 {
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.container2 {
+    margin-left: 50%;
+}
+
+.section {
+    text-align: center;
+    white-space: 0%;
+}
+
+.second {
+
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container3 {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    border-width: 1px;
+    display: inline-block;
+    padding: 40px;
+    white-space: 0%;
+    /* padding-bottom: px */
+}
+
+.container4 {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    border-width: 1px;
+    display: inline-block;
+    padding: 40px;
+    white-space: 0%;
+}
+
+.container5 {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    border-width: 1px;
+    display: inline-block;
+    padding: 40px;
+    /* font-size: x-small; */
+}
+
+.heading2 {
+    font-size: small;
+    color: rgb(83, 75, 75);
+}
+
+.heading3 {
+    font-size: small;
+    color: rgb(83, 75, 75);
+}
+
+.heading4 {
+    font-size: small;
+    color: rgb(83, 75, 75);
+}
+
+.para2 {
+    font-size: xx-small;
+    text-transform: capitalize;
+    text-align-last: left;
+}
+
+.para3 {
+    font-size: xx-small;
+    text-transform: capitalize;
+    text-align-last: left;
+}
+
+.para4 {
+    font-size: xx-small;
+    text-transform: capitalize;
+    text-align-last: left;
+}
+
+.s1 {
+    font-size: xx-large;
+}
+
+.s2 {
+    font-size: xx-large;
+}
+
+.s3 {
+    font-size: xx-large;
+}
+
+.p1 {
+    color: rgb(82, 82, 121);
+    text-align: center;
+}
+
+.p2 {
+    color: rgb(82, 82, 121);
+    text-align: center;
+}
+
+.p3 {
+    color: rgb(82, 82, 121);
+    text-align: center;
+}
+
+.b4 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.b5 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.b6 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.heading5 {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+
+.line1 {
+    margin-left: 500px;
+    margin-right: 450px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+.third {
+    display: inline-block;
+    background-image: url(../images/download\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 160px;
+}
+
+.third.1 {}
+
+
+.third1 {
+    border: 2px black solid;
+    padding: 15px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.third2 {
+    border: 2px black solid;
+    padding: 15px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.img2 {
+}
+
+.third3 {
+    border: 2px black solid;
+    padding: 15px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.b1 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.b2 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.b3 {
+    border-color: blue;
+    border-style: solid;
+    border-radius: 1px;
+    color: blue;
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.container6 {
+    padding-top: 5px;
+}
+
+.heading6 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container7 {
+border-radius: 1px;
+border-style: solid;
+border-color: black;
+border-width: 0.5px;
+font-size: xx-small;
+text-transform: capitalize;
+text-align-last: left;
+}
