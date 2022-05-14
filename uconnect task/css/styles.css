@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstDiv {
+    background-image: url(/img/photo-1542042161784-26ab9e041e89.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+}
+
+nav {
+    padding: 6px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 18rem;
+    border-radius: 112px;
+    background-color: white;
+}
+
+.left1 {
+    display: flex;
+    align-items: center;
+}
+
+.left1 img {
+    margin-left: 19px;
+    width: 61px;
+    height: 60px;
+}
+
+.left1 span {
+    font-size: larger;
+    font-family: "Sofia", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #444444;
+}
+
+.right1 {
+    margin-right: 40px;
+}
+
+.right1 a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: sans-serif;
+    font-size: larger;
+    color: #f04369;
+    font-weight: 500
+}
+
+
+/* ........................from here we starts css for our first section.......... */
+
+.intro p {
+    font-size: 72px;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding: 0px 14rem;
+    color: white;
+}
+
+.intro button {
+    padding: 13px 3rem;
+    margin-top: 3rem;
+    margin-left: 49rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    background: white;
+    border-style: hidden;
+    color: #e63a5f;
+    border-radius: 3px;
+}
+
+.intro button:hover {
+    background-color: #fb3600;
+    color: white;
+    cursor: pointer;
+}
+
+.bgColor {
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    padding-top: 1px;
+    padding-bottom: 6rem;
+    background: linear-gradient(252deg, #ff005e5c, #ff005f);
+}
+
+
+/* ....from here we stats css for our second section...................................................  */
+
+.heading h1 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 80px;
+    font-weight: 100;
+    color: #3e3e3e;
+}
+
+.heading hr {
+    border: 1px solid #ed4f70;
+    margin-top: -15px;
+    margin-left: 44rem;
+    margin-right: 44rem
+}
+
+.heading p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    line-height: 88px;
+    word-spacing: 5px;
+    color: gray;
+    margin-bottom: 70px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftImg img {
+    width: 24rem;
+    height: 24rem;
+    border: 10px solid #ed4f70;
+    border-radius: 50%;
+}
+
+.rightImg img {
+    width: 24rem;
+    height: 24rem;
+    border: 10px solid #ed4f70;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.para p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    color: #3e3e3e;
+    margin: 45px 179px 1px;
+}
+
+.second button {
+    padding: 13px 3rem;
+    margin-top: 3rem;
+    margin-left: 49rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    background: black;
+    border-style: hidden;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 3rem;
+}
+
+
+/* .......from here we starts our third para......................... /  */
+
+.third {
+    background-color: #e63a5f;
+}
+
+.thirdheading {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+}
+
+.paraFirst {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    line-height: 88px;
+    word-spacing: 2px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.boxs {
+    width: 25%;
+    padding: 1px 20px;
+}
+
+.boxs p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+.boxs h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-size: x-large;
+    font-weight: 100;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.boxs i {
+    display: inline-block;
+    color: white;
+    border: 5px solid white;
+    font-size: 65px;
+    margin-left: 11rem;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    font-size: 53px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.third button {
+    padding: 13px 3rem;
+    margin-top: 3rem;
+    margin-left: 49rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    background: white;
+    border-style: hidden;
+    color: #e63a5f;
+    border-radius: 3px;
+    margin-bottom: 4rem;
+}
+
+.third hr {
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
+
+
+/* /.//////////////////////////////// from here we stats css for our forth section..//////////////////////  */
+
+.header2 h1 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 100;
+    color: #3e3e3e;
+}
+
+.header2 hr {
+    border: 1px solid #ed4f70;
+    margin-left: 42rem;
+    margin-top: 20px;
+    margin-right: 42rem
+}
+
+.header2 p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    line-height: 88px;
+    word-spacing: 3px;
+    color: gray;
+}
+
+.uper form {
+    text-align: center;
+}
+
+form input {
+    margin: 12px;
+    padding: 18px 290px 18px 3px;
+    font-size: large;
+    font-weight: 400;
+    border: 3px solid grey;
+    box-shadow: -2px 5px 26px -5px;
+}
+
+.lower form {
+    text-align: center;
+}
+
+.fourth button {
+    padding: 13px 3rem;
+    margin-top: 3rem;
+    margin-left: 49rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    background: black;
+    border-style: hidden;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 3rem;
+}
+
+
+/* ...//////////..////// from her we starts css for our fifth section..///././//...//./////.//..///./  */
+
+.fifth {
+    background-color: #e63a5f;
+    color: white;
+}
+
+.fifth h1 {
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 100;
+    /* color: white; */
+}
+
+.fifth hr {
+    margin-left: 40rem;
+    margin-right: 40rem;
+}
+
+.fifth p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    color: white;
+    margin: 45px 179px 50px;
+}
+
+.feedBack span {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    color: white;
+}
+
+.feedBack img {
+    width: 108px;
+    height: 108px;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+
+.feedBack {
+    width: 33%;
+    background-color: white;
+    margin-top: 9rem;
+    padding: 0px 16px 7px;
+    border-radius: 118px;
+}
+
+.feedBack p {
+    margin: 0;
+    font-size: large
+}
+
+.feedBack {
+    margin-top: 9rem;
+    margin-left: 3rem;
+}
+
+.feedBack p {
+    color: #3e3e3e;
+    padding: 16px 37px 25px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    margin-top: -99px;
+    margin-left: -21px;
+}
+
+.photo span {
+    margin-left: 18px;
+    font-size: xx-large;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 2rem;
+    padding-bottom: 6rem;
+}
+
+
+/* .//////////////////////..............////////now from here we starts css for our footer..///////////////////  */
+
+#footer {
+    background-color: #2b2b2b;
+    padding-top: 7rem;
+}
+
+#footer h2 {
+    font-size: 72px;
+    font-family: "Sofia", sans-serif;
+    color: #e63a5f;
+    margin-left: 38rem;
+    font-weight: 100;
+}
+
+#footer h1 {
+    font-size: 72px;
+    font-family: "Sofia", sans-serif;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+#footer hr {
+    margin-left: 18rem;
+    margin-right: 18rem;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+    color: grey;
+    border: 1px solid;
+}
+
+.Paralast p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 5px;
+    color: gray;
+    padding-bottom: 2rem;
+}
