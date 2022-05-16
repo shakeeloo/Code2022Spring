@@ -203,8 +203,9 @@
     background-color: #3535f5;
     color: white;
     margin: 9px 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
+    border: none;
 
 }
 .btn-3:hover{
