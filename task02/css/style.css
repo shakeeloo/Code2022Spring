@@ -1,0 +1,818 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgImg {
+    background-image: url("/imgs/samewhere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBg {
+    background: radial-gradient(#00000091, #000000d1);
+    padding-bottom: 202px;
+}
+
+.header {
+    margin-left: 8rem;
+    padding: 25px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.header i {
+    color: #fac774;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: x-large;
+    margin-left: 24px;
+}
+
+.header span {
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+
+/* .......now fro here we starts css for navbar..............................................  */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.left {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    color: white;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+    margin: 3px 20px;
+}
+
+.right a:hover {
+    color: #fac774;
+    text-decoration-color: #f9af3b;
+    text-decoration: underline;
+}
+
+.right span {
+    font-family: sans-serif;
+    background-color: #f9af3b;
+    padding: 13px 30px;
+    border-radius: 23px;
+    color: white;
+    font-size: larger;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: 60px 12px 40px;
+    color: white;
+    font-size: 72px;
+}
+
+.intro p {
+    font-size: larger;
+    font-family: sans-serif;
+    margin: 0px 25rem 25px;
+    line-height: 27px;
+    color: grey;
+}
+
+.intro a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    font-family: sans-serif;
+    border: 3px solid #f9af3b;
+    padding: 6px 25px;
+    margin-left: 12px;
+    border-radius: 23px;
+}
+
+.intro a:hover {
+    color: white;
+    background-color: #f9af3b;
+}
+
+
+/* .....///////////....////...//..from here we starts css for our first section..////..../////...////../////  */
+
+.first {
+    display: flex;
+    padding: 4rem 0px;
+    background-color: #fff3f3;
+}
+
+.img img {
+    width: 80vh;
+    height: 60vh;
+}
+
+.para {
+    padding: 0px 100px;
+}
+
+.para h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xxx-large;
+    padding: 25px 56px;
+    padding-left: 0;
+}
+
+.para p {
+    font-family: sans-serif;
+    font-size: larger;
+    line-height: 23px;
+    padding: 0px 0px 24px;
+}
+
+.para i {
+    color: #f9af3b;
+    font-size: x-large;
+}
+
+.para span {
+    font-family: sans-serif;
+    font-size: x-large;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+/* .///.................../////// from here we starts css for our second section..................../ */
+
+.uper1 h3 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+.uper1 h3::after {
+    content: "Our Restourent";
+    color: #f9af3b;
+}
+
+.paragraph p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px 19rem;
+    color: gray;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.centre {
+    width: 23%;
+    padding: 35px 22px;
+    margin: 12px 16px;
+    box-shadow: 1px 3px 14px 0px lightgrey;
+    border-radius: 4px;
+}
+
+.centre h1 {
+    font-family: sans-serif;
+    font-size: xx-large;
+    color: #f9af3b;
+    margin-top: 12px;
+}
+
+.centre h2 {
+    font-size: xx-large;
+    padding: 12px 0px;
+    font-family: 'Dancing Script', cursive;
+    color: gray;
+}
+
+.centre p {
+    font-family: sans-serif;
+    font-size: larger;
+    line-height: 23px;
+    color: lightgrey;
+}
+
+.uper2 h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 8rem;
+}
+
+.uper2 h3::after {
+    content: "Menu";
+    color: #f9af3b;
+}
+
+.uper2 p {
+    text-align: center;
+    margin: 47px 1px;
+}
+
+.uper2 a {
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: 3px solid #f9af3b;
+    padding: 6px 22px;
+    color: gray;
+    border-radius: 23px;
+    margin: 0px 12px;
+}
+
+.uper2 a:hover {
+    background-color: #f9af3b;
+    color: white;
+}
+
+.child {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuleft p {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.one {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #f9af3b;
+}
+
+.two {
+    width: 95%;
+    border-top: 2px dotted;
+}
+
+.three {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.manuRight p {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.class {
+    display: flex;
+}
+
+.menuleft {
+    width: 100%;
+    padding: 0px 15px;
+    margin-left: 100px;
+}
+
+.manuRight {
+    width: 100%;
+    padding: 0px 15px;
+    margin-right: 100px;
+}
+
+
+/* from here we starts css for footer..... / */
+
+.footer h2 {
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 8rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer h2::after {
+    content: "Special";
+    color: #f9af3b;
+}
+
+.footerFlex {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.flexRight {
+    display: flex;
+}
+
+.flexLeft {
+    margin-top: 3rem;
+}
+
+.flexLeft a {
+    font-size: x-large;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: gray;
+    margin: 5px 45px;
+    display: inline-block;
+}
+
+.test {
+    margin-left: 90px;
+}
+
+.test h3 {
+    font-size: xxx-large;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.test p {
+    font-size: larger;
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+/* our second section ends here.........................  */
+
+
+/* .........now from here we starts css for our third section....................  */
+
+.third h2 {
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 5rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.third h2::after {
+    content: "Restourent";
+    color: #f9af3b;
+}
+
+.thirdflex {
+    display: flex;
+    justify-content: center;
+    margin: 12px 5rem;
+}
+
+.thirdImg img {
+    width: 60vh;
+    height: 40vh;
+}
+
+.thirdPara {
+    margin: 0px 3rem;
+}
+
+.thirdPara h3 {
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+    color: #f9af3b;
+}
+
+.span {
+    font-size: x-large;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    border-bottom: 4px solid #f9af3b;
+}
+
+.thirdPara p {
+    margin-top: 12px;
+    font-size: larger;
+    color: white;
+    font-family: sans-serif;
+}
+
+.thirdPara i {
+    font-size: larger;
+    color: #f9af3b;
+}
+
+.thirdPara span {
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+}
+
+.third {
+    background-image: url("/imgs/blurred-background-restaurant-abstract-bokeh-footage-107253087_iconl.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 12px;
+    padding-bottom: 40px;
+}
+
+
+/* .....our third section end here now from here we starts our fourth section.....................  */
+
+.fourth {
+    padding-bottom: 6rem;
+}
+
+.fourth h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fourth h2::after {
+    content: "Table";
+    color: #f9af3b;
+}
+
+.fourth p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px 19rem;
+    color: gray;
+}
+
+form {
+    text-align: center;
+    box-shadow: -1px 1px 20px 1px grey;
+    margin: 0px 95px;
+    padding-top: 32px;
+}
+
+.form {
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.form input {
+    padding: 10px 197px 10px 7px;
+    margin: 3px 3px 23px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+form textarea {
+    font-size: larger;
+    padding: 10px 0px 0px 22px;
+    font-family: sans-serif;
+}
+
+form button {
+    margin: 28px;
+    padding: 14px 61px;
+    font-family: sans-serif;
+    font-size: large;
+    border-style: none;
+    border-radius: 23px;
+    background-color: #f9af3b;
+    color: white;
+}
+
+form button:hover {
+    color: #f9af3b;
+    background-color: antiquewhite;
+}
+
+
+/* ,......................////section four end here.............................  */
+
+
+/* ,................................... now from here we starts css for our section fifth............  */
+
+.fifth h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fifth h2::after {
+    content: "Our Restaurent";
+    color: #f9af3b;
+}
+
+.fifth p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px 19rem;
+    color: gray;
+}
+
+.fifthflex img {
+    width: 24.5%;
+    margin-left: 4px;
+}
+
+
+/* ...........our fifth section end here,............  */
+
+
+/* .............../////// now we starts our sixth section from here....................... .///..  */
+
+.sixth h2 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(64, 62, 62);
+    font-family: 'Dancing Script', cursive;
+}
+
+.sixth h2::after {
+    content: "Cheffs";
+    color: #f9af3b;
+}
+
+.sixthFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 1px 12px;
+    background-color: white;
+}
+
+.row img {
+    width: 40vh;
+    height: 40vh;
+}
+
+.row p {
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #f9af3b;
+    width: 100%;
+    margin: 12px 0px;
+}
+
+.row span {
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 115px;
+    width: 100%;
+}
+
+.sixth {
+    background-image: url("/imgs/Carne-Mare-Read-McKendree.jpg");
+    padding: 1px;
+}
+
+.sixthBg {
+    background: linear-gradient(163deg, #ffffffc9, #f9f7f7bf 100%);
+    padding: 1px;
+    padding-bottom: 5rem;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 12px;
+    font-size: larger;
+}
+
+.icon i {
+    margin: 7px;
+    color: gray;
+}
+
+.icon i:hover {
+    color: #f9af3b;
+}
+
+
+/* ......our sixth section ends here now we....................................................  */
+
+
+/* .......................<<<now we starts css for our seventh section>>>><,,,,,,,,,,.................  */
+
+.seven {
+    background-image: url("/imgs/Tallest\ Restaurants\ in\ the\ World\ 7.webp");
+    background-size: cover;
+}
+
+.sevenBg {
+    background: radial-gradient(#000000ad, #000000e0);
+    padding-bottom: 5rem;
+}
+
+.seventh {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.seventh img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.seventh h3 {
+    margin: 17px 0px 8px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.seventh p {
+    font-size: larger;
+    font-family: cursive;
+    padding-bottom: 12px;
+    color: gray;
+}
+
+.seventh i {
+    font-size: larger;
+    color: #f9af3b;
+}
+
+.feedback {
+    text-align: center;
+    margin: 12px 8rem;
+}
+
+.feedback p {
+    display: inline-block;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: lightgrey;
+}
+
+.feedback span {
+    font-size: xxx-large;
+}
+
+.ftb {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    border: 2px solid gray;
+    padding: 4px;
+    margin: 6px;
+    background-color: gray;
+    border-radius: 150px;
+}
+
+
+/* .................our seventh section ends here from here we starts our new section.......... /  */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,our eight section starts from here..................................  */
+
+.eight h1 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(64, 62, 62);
+    font-family: 'Dancing Script', cursive;
+}
+
+.eight h1::before {
+    content: "Contact ";
+    color: #f9af3b;
+}
+
+.eight p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px 19rem;
+    color: gray;
+}
+
+.eightImg {
+    padding: 215px;
+    background-image: url("/imgs/1_qYUvh-EtES8dtgKiBRiLsA.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ....................our eight section end here.......................  */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,now we starts css for our nine section   ..........................  */
+
+.nine {
+    padding-bottom: 5rem;
+}
+
+.nineFlex {
+    display: flex;
+    align-items: center;
+    margin: 37px;
+    text-align: center;
+}
+
+.nineFlex i {
+    font-size: xx-large;
+    margin: 1px 12px;
+    border: 1px solid #f9af3b;
+    text-align: center;
+    height: 42px;
+    width: 53px;
+    padding-top: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #f9af3b;
+}
+
+.nineFlex h2 {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.nineFlex p {
+    font-size: large;
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.ninth {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 16rem 0px;
+    box-shadow: 0px -2px 10px -1px grey;
+}
+
+.formLast input {
+    font-size: initial;
+    padding: 10px 29rem 10px 10px;
+    margin: 10px 0px 7px;
+}
+
+.subject {
+    float: left;
+    margin: 12px 7rem;
+}
+
+.subject input {
+    font-size: initial;
+    padding: 10px 71rem 10px 10px;
+}
+
+
+/* ...................our nineth section ends here........................................... */
+
+
+/* ..........................now we starts css for our last  section....................................  */
+
+.lastSec {
+    padding-bottom: 6rem;
+    background-color: #35322d;
+    padding-top: 1px;
+}
+
+.lastSec h1 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: xxx-large;
+    color: #f9af3b;
+    font-family: 'Dancing Script', cursive;
+}
+
+.lastSec p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px 19rem;
+    color: gray;
+}
+
+.footerDiv {
+    text-align: center;
+}
+
+.footerDiv i {
+    width: 38px;
+    height: 26px;
+    border-radius: 62px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: gray;
+    color: white;
+}
